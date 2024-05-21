@@ -36,7 +36,7 @@
           <div class="mt-6 flow-root">
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
-                <a v-for="item in navigation" :key="item.name" :to="item.to" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
+                <router-link v-for="item in navigation" :key="item.name" :to="item.to" @click="mobileMenuOpen = false" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</router-link>
               </div>
               <!-- <div class="py-6">
                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
@@ -48,16 +48,18 @@
       <!-- main -->
   <router-view/>
   <!-- footer -->
-  
+<FooterVue/>
 </template>
 
 <script setup>
 import {  ref } from 'vue'
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import FooterVue from './components/FooterSecction.vue'
 const navigation = [
   { name: 'Inicio', to: '/' },
   { name: 'Nosotros', to: '/about' },
-  { name: 'Contactanos', href: '#' },
-  { name: 'Redes', href: '#' },
+  { name: 'Contactanos', to: '#' },
+  { name: 'Redes', to: '#' },
 ]
 const mobileMenuOpen = ref(false)
 
@@ -65,24 +67,24 @@ const mobileMenuOpen = ref(false)
 
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
+} */
 
 nav {
   padding: 30px;
 }
 
-nav a {
+/* nav a {
   font-weight: bold;
   color: #2c3e50;
-}
+} */
 
-nav a.router-link-exact-active {
+/* nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 </style>
