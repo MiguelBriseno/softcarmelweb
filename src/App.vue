@@ -58,7 +58,7 @@ import FooterVue from './components/FooterSecction.vue'
 const navigation = [
   { name: 'Inicio', to: '/' },
   { name: 'Nosotros', to: '/about' },
-  { name: 'Contactanos', to: '#' },
+  { name: 'Contactanos', to: '/contact' },
   { name: 'Redes', to: '#' },
 ]
 const mobileMenuOpen = ref(false)
