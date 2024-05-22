@@ -55,6 +55,9 @@
 import {  ref } from 'vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 import FooterVue from './components/FooterSecction.vue'
+import { Dialog, DialogPanel } from '@headlessui/vue'
+
+
 const navigation = [
   { name: 'Inicio', to: '/' },
   { name: 'Nosotros', to: '/about' },
@@ -67,13 +70,6 @@ const mobileMenuOpen = ref(false)
 
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-} */
 
 nav {
   padding: 30px;

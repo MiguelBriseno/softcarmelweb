@@ -56,7 +56,7 @@
                   <span class="sr-only">Email</span>
                   <EnvelopeIcon class="h-7 w-6 text-teal-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-gray-900" href="mailto:contacto@softcarmel..com">contacto@softcarmel.com</a></dd>
+                <dd><a class="hover:text-gray-900" href="mailto:contacto@softcarmel.com">contacto@softcarmel.com</a></dd>
               </div>
             </dl>
           </div>

@@ -126,8 +126,8 @@
           <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">Sé el primero en recibir nuestras últimas noticias, actualizaciones exclusivas y ofertas especiales directamente en tu bandeja de entrada. No te pierdas nada, suscríbete hoy y únete a nuestra comunidad</p>
           <form class="mx-auto mt-10 flex max-w-md gap-x-4">
             <label for="email-address" class="sr-only">Email address</label>
-            <input id="email-address" name="email" type="email" autocomplete="email" required="" class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email" />
-            <button type="submit" class="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Notify me</button>
+            <input v-model="correo" id="email-address" name="email" type="email" autocomplete="email" required="" class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email" />
+            <button @click="console.log(this.correo)" type="submit" class="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Notify me</button>
           </form>
           <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2" aria-hidden="true">
             <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
@@ -204,10 +204,15 @@
     <!-- </main> -->
 </template>
 
-<script setup>
-
+<script>
 import { CloudArrowUpIcon,ServerIcon,PresentationChartBarIcon } from '@heroicons/vue/20/solid'
-const primaryFeatures = [
+// import { CloudArrowUpIcon, LockClosedIcon, ServerIcon,PresentationChartBarIcon } from '@heroicons/vue/20/solid'
+
+export default{
+  data(){
+    return{
+      correo:null,
+    primaryFeatures : [
   {
     name: 'Organizacion de Datos.',
     description: 'Al crear una aplicación web personalizada, te ofrecemos una solución poderosa para organizar y acceder a tus datos de manera intuitiva y segura.',
@@ -223,8 +228,8 @@ const primaryFeatures = [
     description: 'Protege tu negocio con copias de seguridad automáticas de bases de datos, asegurando la recuperación rápida de datos y minimizando el tiempo de inactividad.',
     icon: ServerIcon,
   },
-]
-const secondaryFeatures = [
+],
+secondaryFeatures : [
   {
     name: 'Organizacion de Datos',
     description:
@@ -246,18 +251,18 @@ const secondaryFeatures = [
     href: '#',
     icon: ServerIcon,
   },
-]
-const featuredTestimonial = {
+],
+featuredTestimonial : {
   body: ' Colaborar con SOFTCARMEL ha sido una experiencia transformadora para nuestro negocio. Necesitábamos un software personalizado para gestionar nuestras operaciones internas, y ellos entregaron una solución que superó nuestras expectativas. El nuevo sistema automatiza procesos críticos, reduce errores y ha mejorado significativamente nuestra eficiencia operativa.',
   author: {
     name: 'Francisco Garcia',
     handle: 'fco.garcia18',
     imageUrl:
-      'src/assets/paco.jpeg',
-    logoUrl: 'src/assets/azulAgave.png',
+      require("@/assets/paco.jpeg"),
+    logoUrl: require("@/assets/azulAgave.png"),
   },
-}
-const testimonials = [
+},
+ testimonials : [
   [
     [
       {
@@ -292,7 +297,7 @@ const testimonials = [
           name: 'Erik Romero',
           handle: 'erikromero_18',
           imageUrl:
-            'src/assets/ErickRomero.jpeg',
+            require("@/assets/ErickRomero.jpeg"),
         },
       },
       // More testimonials...
@@ -311,11 +316,11 @@ const testimonials = [
     ],
   ],
 ]
-
-// export default {
-//   name: 'HomeView',
-//   components: {
-//     // HelloWorld
-//   }
-// }
+    }
+  }
+}
 </script>
+
+<style>
+
+</style>
