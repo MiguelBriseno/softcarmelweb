@@ -29,7 +29,7 @@
             <h1 class="mt-10 max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Inovacion local con impacto global</h1>
             <p class="mt-6 text-lg leading-8 text-gray-600">En el mundo actual de los negocios, el tiempo es oro. Gestionar sus sistemas de información puede llevar demiado tiempo y en ocasiones es una frustración. Softcarmel está listo para ayudarle con soluciones innovadoras. Ofrecemos los servicios de tecnología que su empresa necesita para que usted sienta la libertad de enfocarse en hacer negocios.</p>
             <div class="mt-10 flex items-center gap-x-6">
-              <a href="#" class="rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-6  00 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+              <RouterLink to="/contact" class="rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-6  00 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Crea tu software</RouterLink>
               <router-link to="/about" class="text-sm font-semibold leading-6 text-gray-900">Acerca nosostros <span aria-hidden="true">→</span></router-link>
             </div>
           </div>
@@ -119,27 +119,7 @@
         </div>
       </div>
 
-      <!-- Newsletter section -->
-      <div class="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
-        <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
-          <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">¡Subscribete a Nuestro Newsletter!</h2>
-          <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">Sé el primero en recibir nuestras últimas noticias, actualizaciones exclusivas y ofertas especiales directamente en tu bandeja de entrada. No te pierdas nada, suscríbete hoy y únete a nuestra comunidad</p>
-          <form class="mx-auto mt-10 flex max-w-md gap-x-4">
-            <label for="email-address" class="sr-only">Email address</label>
-            <input v-model="correo" id="email-address" name="email" type="email" autocomplete="email" required="" class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email" />
-            <button @click="console.log(this.correo)" type="submit" class="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Notify me</button>
-          </form>
-          <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2" aria-hidden="true">
-            <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
-            <defs>
-              <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 512) rotate(90) scale(512)">
-                <stop stop-color="#7775D6" />
-                <stop offset="1" stop-color="#03FDC2" stop-opacity="0" />
-              </radialGradient>
-            </defs>
-          </svg>
-        </div>
-      </div>
+
 
       <!-- Testimonials section -->
       <div class="relative isolate mt-32 sm:mt-56 sm:pt-32">
@@ -266,7 +246,7 @@ featuredTestimonial : {
   [
     [
       {
-        body: 'Tras enfrentar varios intentos de ciberataques, recurrimos a [Nombre de tu empresa] para mejorar nuestra seguridad informática. Su equipo realizó una auditoría exhaustiva y implementó medidas avanzadas para proteger nuestros datos.',
+        body: 'Tras enfrentar varios intentos de ciberataques, recurrimos a SOFTCARMEL para mejorar nuestra seguridad informática. Su equipo realizó una auditoría exhaustiva y implementó medidas avanzadas para proteger nuestros datos.',
         author: {
           name: 'Leslie Gaona',
           handle: 'leslieGaona',
@@ -280,10 +260,10 @@ featuredTestimonial : {
       {
         body: 'SOFTCARMEL implementó un sistema ERP que ha integrado todas nuestras funciones empresariales en una plataforma unificada. Desde la contabilidad hasta la gestión de inventarios, ahora tenemos una visión completa de nuestras operaciones. Este cambio ha mejorado la colaboración entre departamentos y ha optimizado nuestra cadena de suministro.',
         author: {
-          name: 'Linda Gonzales',
-          handle: 'lindaG',
+          name: 'Fabiola Rodas',
+          handle: 'FabiRo',
           imageUrl:
-            'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            require('@/assets/FabiolaRodas.png'),
         },
       },
       // More testimonials...
