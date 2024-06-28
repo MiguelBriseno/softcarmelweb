@@ -89,5 +89,11 @@ const people = [
     imageUrl:
       'https://i.postimg.cc/4yrN99pG/Whats-App-Image-2024-05-23-at-15-31-42.jpg'
   },
+  {
+    name: 'Kenet Gaona',
+    role: 'Full Stack',
+    imageUrl:
+      'https://i.postimg.cc/xCM4Zmky/softcarmelprofile-removebg-preview.png'
+  },
 ]
 </script>
