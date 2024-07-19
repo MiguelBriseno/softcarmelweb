@@ -103,5 +103,11 @@ const people = [
     imageUrl:
       'https://i.postimg.cc/cJNrzfzW/bruno-removebg-preview.png'
   },
+  {
+    name: 'Kenet Gaona',
+    role: 'FullStack Developer',
+    imageUrl:
+      'https://i.postimg.cc/sD1LHgvf/image.png'
+  },
 ]
 </script>
