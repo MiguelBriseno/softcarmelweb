@@ -101,7 +101,7 @@ const people = [
     name: 'Bruno Romero',
     role: 'PM / Devops Engineer',
     imageUrl:
-      'https://i.postimg.cc/cJNrzfzW/bruno-removebg-preview.png'
+      'https://ibb.co/cQqTP9Z'
   },
   {
     name: 'Kenet Gaona',
