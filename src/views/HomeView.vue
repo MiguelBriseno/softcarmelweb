@@ -177,35 +177,15 @@
   </div>
 
   <!-- Feature section -->
-  <div class="mx-auto mt-10 max-w-7xl px-6  lg:px-8">
-    <div class="mx-auto max-w-2xl lg:text-center">
-      <h2 class="text-base font-semibold leading-7 text-teal-600">PORTAFOLIO</h2>
-      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Digitaliza tu proceso.</p>
-      <!-- <p class="mt-6 text-lg leading-8 text-gray-600"></p> -->
-    </div>
-    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-        <div v-for="feature in secondaryFeatures" :key="feature.name" class="flex flex-col">
-          <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-            <component :is="feature.icon" class="h-5 w-5 flex-none text-teal-600" aria-hidden="true" />
-            {{ feature.name }}
-          </dt>
-          <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-            <p class="flex-auto">{{ feature.description }}</p>
-            <p class="mt-6">
-              <a :href="feature.href" class="text-sm font-semibold leading-6 text-teal-600">Learn more <span
-                  aria-hidden="true">→</span></a>
-            </p>
-          </dd>
-        </div>
-      </dl>
-    </div>
-  </div>
+
+    <!-- <StatsSection></StatsSection> -->
+    <ProyectsSection></ProyectsSection>
+
 
 
 
   <!-- Testimonials section -->
-  <div class="relative isolate mt-20  ">
+  <!-- <div class="relative isolate mt-20  ">
     <svg
       class="absolute inset-0 -z-10 hidden h-full w-full stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)] sm:block"
       aria-hidden="true">
@@ -282,15 +262,21 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- </main> -->
 </template>
 
 <script>
 import { CloudArrowUpIcon, ServerIcon, PresentationChartBarIcon } from '@heroicons/vue/20/solid'
+import ProyectsSection from '@/components/ProyectsSection.vue';
+// import StatsSection from '@/components/StatsSection.vue';
 // import { CloudArrowUpIcon, LockClosedIcon, ServerIcon,PresentationChartBarIcon } from '@heroicons/vue/20/solid'
 
 export default {
+  components: {
+    ProyectsSection,
+    
+  },
   data() {
     return {
       correo: null,
