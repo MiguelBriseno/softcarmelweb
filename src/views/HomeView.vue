@@ -140,12 +140,8 @@
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-center lg:gap-y-0">
         <div class="lg:row-start-2 lg:max-w-md">
-          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Aumenta tu Productividad.<br />Con un
-            software hecho a la medida.</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-300">En SOFTCARMEL, nos especializamos en las creacion de
-            aplicaciones y paginas web personalizadas para empresas de todos los tamaños.
-            Nuestro equipo de expertos combina creatividad y tecnologia avanzada para ofrecer soluciones innovadoras que
-            impulsen tu negocio hacia el exito.
+          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Como Ayudamos a nustros clientes?</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-300">En [Nombre de tu Empresa], somos apasionados por la innovación y la excelencia tecnológica. Nuestro equipo domina una amplia gama de tecnologías y lenguajes de programación, permitiéndonos abordar proyectos complejos y ofrecer soluciones de software a medida que satisfacen las necesidades únicas de nuestros clientes.
 
           </p>
         </div>
