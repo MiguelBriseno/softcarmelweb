@@ -95,19 +95,19 @@ const people = [
     name: 'Fabiola Rodas',
     role: 'Data Scientist / Bussines Analyst',
     imageUrl:
-      '../assets/fabi-removebg-preview.png'
+      'https://i.postimg.cc/bJm1xFn6/fabi-removebg-preview.png'
   },
   {
     name: 'Bruno Romero',
     role: 'PM / Devops Engineer',
     imageUrl:
-      '../assets/bruno-removebg-preview.png'  
+      'https://i.postimg.cc/zGxKhQ1V/bruno-removebg-preview.png'  
   },
   {
     name: 'Kenet Gaona',
     role: 'FullStack Developer',
     imageUrl:
-      '../assets/kenet-removebg-preview.png'
+      'https://i.postimg.cc/3JHXQpBJ/kenet-removebg-preview.png'
   },
 ]
 </script>

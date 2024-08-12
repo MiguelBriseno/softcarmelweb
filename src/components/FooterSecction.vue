@@ -1,111 +1,38 @@
 <template>
-        <footer class="mt-32 bg-gray-900 sm:mt-56" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" class="sr-only">Footer</h2>
-      <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-          <img class="h-20" src="@/assets/firefly.png" alt="Company name" />
-          <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div class="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 class="text-sm font-semibold leading-6 text-white">Solutions</h3>
-                <ul role="list" class="mt-6 space-y-4">
-                  <li v-for="item in footerNavigation.solutions" :key="item.name">
-                    <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="mt-10 md:mt-0">
-                <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
-                <ul role="list" class="mt-6 space-y-4">
-                  <li v-for="item in footerNavigation.support" :key="item.name">
-                    <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
-                <ul role="list" class="mt-6 space-y-4">
-                  <li v-for="item in footerNavigation.company" :key="item.name">
-                    <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="mt-10 md:mt-0">
-                <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
-                <ul role="list" class="mt-6 space-y-4">
-                  <li v-for="item in footerNavigation.legal" :key="item.name">
-                    <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  <footer class="relative bg-slate-900">
+    <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+      <nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+        <div v-for="item in navigation.main" :key="item.name" class="pb-6">
+          <a :href="item.href" class="text-sm leading-6 text-slate-400 hover:text-slate-600">{{ item.name }}</a>
         </div>
-        <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
-          <div>
-            <h3 class="text-sm font-semibold leading-6 text-white">Subscribe to our newsletter</h3>
-            <p class="mt-2 text-sm leading-6 text-gray-300">The latest news, articles, and resources, sent to your inbox weekly.</p>
-          </div>
-          <form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
-            <label for="email-address" class="sr-only">Email address</label>
-            <input type="email" name="email-address" id="email-address" autocomplete="email" required="" class="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:w-56 sm:text-sm sm:leading-6" placeholder="Enter your email" />
-            <div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-              <button type="submit" class="flex w-full items-center justify-center rounded-md bg-teal-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
-            </div>
-          </form>
-        </div>
-        <div class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-          <div class="flex space-x-6 md:order-2">
-            <a v-for="item in footerNavigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
-              <span class="sr-only">{{ item.name }}</span>
-              <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-            </a>
-          </div>
-          <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">&copy; 2020 SO, Inc. All rights reserved.</p>
-        </div>
+      </nav>
+      <div class="mt-10 flex justify-center space-x-10">
+        <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-slate-400 hover:text-slate-600">
+          <span class="sr-only">{{ item.name }}</span>
+          <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+        </a>
       </div>
-    </footer>
+      <p class="mt-10 text-center text-xs leading-5 text-slate-500">&copy; 2024 Softcarmel. Todos los derechos reservados.</p>
+      
+      <!-- Imagen que sobresale hacia arriba -->
+      <img src="../assets/phone_footer.png" alt="Phone Image" style="position: absolute; left: 80%; bottom: 70%; transform: translate(-50%, 50%);"/>
+    </div>
+  </footer>
 </template>
-<script>
 
-// import { ArrowPathIcon, ChevronRightIcon, CloudArrowUpIcon, LockClosedIcon, ServerIcon,PresentationChartBarIcon } from '@heroicons/vue/20/solid'
+<script setup>
 import { defineComponent, h } from 'vue'
 
-
-export default{
-    data(){
-        return{
-            footerNavigation : {
-  solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
-  ],
-  support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
-  ],
-  company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
-  ],
-  legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+const navigation = {
+  main: [
+    { name: 'Inicio', href: '/' },
+    { name: 'Nosotros', href: '/about' },
+    { name: 'Contactanos', href: '/contact' },
   ],
   social: [
     {
       name: 'Facebook',
-      href: '#',
+      href: 'https://www.facebook.com/profile.php?id=61563852792234',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -119,7 +46,7 @@ export default{
     },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'https://www.instagram.com/otro_softcarmel/',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -133,7 +60,7 @@ export default{
     },
     {
       name: 'X',
-      href: '#',
+      href: 'https://x.com/otro_softcarmel',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -144,22 +71,8 @@ export default{
       }),
     },
     {
-      name: 'GitHub',
-      href: '#',
-      icon: defineComponent({
-        render: () =>
-          h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
-            h('path', {
-              'fill-rule': 'evenodd',
-              d: 'M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z',
-              'clip-rule': 'evenodd',
-            }),
-          ]),
-      }),
-    },
-    {
       name: 'YouTube',
-      href: '#',
+      href: 'https://www.youtube.com/channel/UC3VGiB6cfWNMXmTEa3msSJg',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -173,9 +86,12 @@ export default{
     },
   ],
 }
-        }
-    }
-}
-
-
 </script>
+
+<style>
+  @media (max-width: 1000px) {
+    footer img {
+      display: none;
+    }
+  }
+</style>
