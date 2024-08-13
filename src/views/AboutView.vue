@@ -9,7 +9,7 @@
                 largo plazo y por ello nuestros servicios se diseñan con nuestros clientes en mente. Nos esforzamos para que nuestros clientes no tengan que preocuparse, 
                 pues sus operaciones de tecnología de la información están en manos de profesionales.
               </p>
-              <a href="https://wa.me/3322620459"  class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+              <a href="https://calendly.com/contacto-softcarmel/interview" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 Agenda una reunión
               </a> 
           </div>
