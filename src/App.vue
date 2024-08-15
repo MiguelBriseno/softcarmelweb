@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- navigation bar and navigation drawer -->
-    <nav class="flex items-center justify-between s lg:px-8" aria-label="Global">
+    <nav class="flex items-center justify-between s lg:px-8 bg-slate-900" aria-label="Global">
       <div class="flex lg:flex-1 gap-32">
         <div class="-m-1.5 p-1.5">
           <span class="sr-only">SOFCARMEL</span>
@@ -34,8 +34,7 @@
         <router-link v-for="item in navigation" :key="item.name" :to="item.to"
           class="text-sm font-semibold leading-6 text-gray-300	">{{ item.name }}</router-link>
       </div>
-      <RouterLink to="/contact"
-        class="hidden sm:flex gap-2 items-center rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-6  00 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+      <a href="https://calendly.com/contacto-softcarmel/interview" class="hidden sm:flex gap-2 items-center rounded-md bg-stone-100	 px-3.5 py-2.5 text-sm font-semibold text-teal-700 shadow-sm hover:bg-teal-6  00 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
           <path
             d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" />
@@ -44,8 +43,7 @@
             clip-rule="evenodd" />
         </svg>
         Agendar Sesion
-      </RouterLink>
-
+      </a>
     </nav>
 
 
