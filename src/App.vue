@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- navigation bar and navigation drawer -->
-    <nav class="flex items-center justify-between bg-gray-900 lg:px-8" aria-label="Global">
+    <nav class="flex items-center justify-between s lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1 gap-32">
         <div class="-m-1.5 p-1.5">
           <span class="sr-only">SOFCARMEL</span>

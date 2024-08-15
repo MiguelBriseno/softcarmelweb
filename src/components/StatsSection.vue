@@ -37,7 +37,7 @@
   
   const stats = [
     { id: 1, name: 'Proyectos Desplegados', stat: '103', icon: UsersIcon, change: '122', changeType: 'increase' },
-    { id: 2, name: 'Avg. Open Rate', stat: '58.16%', icon: EnvelopeOpenIcon, change: '5.4%', changeType: 'increase' },
-    { id: 3, name: 'Avg. Click Rate', stat: '24.57%', icon: CursorArrowRaysIcon, change: '3.2%', changeType: 'decrease' },
+    { id: 2, name: 'Datos Recuperados e Identificados', stat: '58.16%', icon: EnvelopeOpenIcon, change: '5.4%', changeType: 'increase' },
+    { id: 3, name: 'Eficiencia', stat: '24.57%', icon: CursorArrowRaysIcon, change: '3.2%', changeType: 'increase' },
   ]
   </script>

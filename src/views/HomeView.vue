@@ -75,7 +75,7 @@
           y lleva la <span class="font-bold text-teal-600">productividad</span> al siguiente <span
             class="font-bold text-teal-600">nivel</span> </h2>
         <p class="mt-6 text-lg leading-8 text-gray-600">
-         [Nombre Empresa], le ayudamos a gestionar sus sistemas de información con soluciones innovadoras, permitiéndole
+         En Sofcarmel, le ayudamos a gestionar sus sistemas de información con soluciones innovadoras, permitiéndole
           enfocarse en lo que realmente importa: hacer negocios.</p>
         <div class="mt-10 flex items-center gap-x-6">
           <a href="https://calendly.com/contacto-softcarmel/interview" class="flex gap-2 items-center rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-6  00 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
