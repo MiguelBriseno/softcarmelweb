@@ -77,7 +77,7 @@ const people = [
     name: 'Miguel Briseño',
     role: 'Co-Founder / CEO',
     imageUrl:
-      'https://i.postimg.cc/Wb4sNjq8/miguel-removebg-preview.png'
+      'https://i.postimg.cc/NFSZNkDp/unnamed.png'
   },
   {
     name: 'Daniel Montes',
@@ -87,7 +87,7 @@ const people = [
   },
   {
     name: 'Leonardo Talavera',
-    role: 'Co-Founder / CTO',
+    role: 'CTO',
     imageUrl:
       'https://i.postimg.cc/4yrN99pG/Whats-App-Image-2024-05-23-at-15-31-42.jpg'
   },
@@ -104,10 +104,10 @@ const people = [
       'https://i.postimg.cc/zGxKhQ1V/bruno-removebg-preview.png'  
   },
   {
-    name: 'Kenet Gaona',
+    name: 'Sebastián Contreras',
     role: 'FullStack Developer',
     imageUrl:
-      'https://i.postimg.cc/3JHXQpBJ/kenet-removebg-preview.png'
+      'https://i.postimg.cc/VLNN2fRt/Whats-App-Image-2025-01-24-at-11-58-04-PM.jpg'
   },
 ]
 </script>
