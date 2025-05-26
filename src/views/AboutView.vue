@@ -3,9 +3,9 @@
     <section class="bg-white dark:bg-gray-900">
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
-              <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Sobre softcarmel</h1>
+              <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Sobre MASOLUTIONS</h1>
               <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                En Softcarmel ofrecemos una amplia gama de soluciones tecnológicas para distintas industrias y empresas de todos los tamaños. Creemos en las alianzas a 
+                En MASOLUTIONS ofrecemos una amplia gama de soluciones tecnológicas para distintas industrias y empresas de todos los tamaños. Creemos en las alianzas a 
                 largo plazo y por ello nuestros servicios se diseñan con nuestros clientes en mente. Nos esforzamos para que nuestros clientes no tengan que preocuparse, 
                 pues sus operaciones de tecnología de la información están en manos de profesionales.
               </p>
@@ -86,22 +86,10 @@ const people = [
       'https://i.postimg.cc/N0tpBC98/daniel.jpg'
   },
   {
-    name: 'Leonardo Talavera',
-    role: 'CTO',
-    imageUrl:
-      'https://i.postimg.cc/4yrN99pG/Whats-App-Image-2024-05-23-at-15-31-42.jpg'
-  },
-  {
     name: 'Fabiola Rodas',
     role: 'Data Scientist / Bussines Analyst',
     imageUrl:
       'https://i.postimg.cc/bJm1xFn6/fabi-removebg-preview.png'
-  },
-  {
-    name: 'Bruno Romero',
-    role: 'PM / Devops Engineer',
-    imageUrl:
-      'https://i.postimg.cc/zGxKhQ1V/bruno-removebg-preview.png'  
   },
   {
     name: 'Sebastián Contreras',

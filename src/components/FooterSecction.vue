@@ -12,7 +12,7 @@
           <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
         </a>
       </div>
-      <p class="mt-10 text-center text-xs leading-5 text-slate-500">&copy; 2024 Softcarmel. Todos los derechos reservados.</p>
+      <p class="mt-10 text-center text-xs leading-5 text-slate-500">&copy; 2024 MASOLUTIONS. Todos los derechos reservados.</p>
       
       <!-- Imagen que sobresale hacia arriba -->
       <img src="../assets/phone_footer.png" alt="Phone Image" style="position: absolute; left: 80%; bottom: 70%; transform: translate(-50%, 50%);"/>
@@ -46,7 +46,7 @@ const navigation = {
     },
     {
       name: 'Instagram',
-      href: 'https://www.instagram.com/otro_softcarmel/',
+      href: 'https://www.instagram.com/ma_solutions/',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -60,7 +60,7 @@ const navigation = {
     },
     {
       name: 'X',
-      href: 'https://x.com/otro_softcarmel',
+      href: 'https://x.com/ma_solutions',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [

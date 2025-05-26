@@ -75,7 +75,7 @@
           y lleva la <span class="font-bold text-teal-600">productividad</span> al siguiente <span
             class="font-bold text-teal-600">nivel</span> </h2>
         <p class="mt-6 text-lg leading-8 text-gray-600">
-         En Sofcarmel, le ayudamos a gestionar sus sistemas de información con soluciones innovadoras, permitiéndole
+         En MASOLUTIONS, le ayudamos a gestionar sus sistemas de información con soluciones innovadoras, permitiéndole
           enfocarse en lo que realmente importa: hacer negocios.</p>
         <div class="mt-10 flex items-center gap-x-6">
           <a href="https://calendly.com/contacto-softcarmel/interview" class="flex gap-2 items-center rounded-md bg-teal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-6  00 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
@@ -137,7 +137,7 @@
             <div class="lg:row-start-2 lg:max-w-md">
               <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Aumenta tu Productividad.<br />Con un
                 software hecho a la medida.</h2>
-              <p class="mt-6 text-lg leading-8 text-gray-300">En SOFTCARMEL, nos especializamos en las creacion de
+              <p class="mt-6 text-lg leading-8 text-gray-300">En MASOLUTIONS, nos especializamos en las creacion de
                 aplicaciones y paginas web personalizadas para empresas de todos los tamaños.
                 Nuestro equipo de expertos combina creatividad y tecnologia avanzada para ofrecer soluciones innovadoras que
                 impulsen tu negocio hacia el exito.
@@ -198,7 +198,7 @@ export default {
         },
         {
           name: 'Seguimiento de Proyectos y Tareas.',
-          description: 'La gestión de proyectos y tareas se vuelve sencilla y eficiente con una aplicación web personalizada desarrollada por SOFTCARMEL',
+          description: 'La gestión de proyectos y tareas se vuelve sencilla y eficiente con una aplicación web personalizada desarrollada por MASOLUTIONS.',
           icon: PresentationChartBarIcon,
         },
         {
@@ -231,7 +231,7 @@ export default {
         },
       ],
       featuredTestimonial: {
-        body: ' Colaborar con SOFTCARMEL ha sido una experiencia transformadora para nuestro negocio. Necesitábamos un software personalizado para gestionar nuestras operaciones internas, y ellos entregaron una solución que superó nuestras expectativas. El nuevo sistema automatiza procesos críticos, reduce errores y ha mejorado significativamente nuestra eficiencia operativa.',
+        body: 'Colaborar con MASOLUTIONS ha sido una experiencia transformadora para nuestro negocio. Necesitábamos un software personalizado para gestionar nuestras operaciones internas, y ellos entregaron una solución que superó nuestras expectativas. El nuevo sistema automatiza procesos críticos, reduce errores y ha mejorado significativamente nuestra eficiencia operativa.',
         author: {
           name: 'Francisco Garcia',
           handle: 'fco.garcia18',
@@ -244,7 +244,7 @@ export default {
         [
           [
             {
-              body: 'Tras enfrentar varios intentos de ciberataques, recurrimos a SOFTCARMEL para mejorar nuestra seguridad informática. Su equipo realizó una auditoría exhaustiva y implementó medidas avanzadas para proteger nuestros datos.',
+              body: 'Tras enfrentar varios intentos de ciberataques, recurrimos a MASOLUTIONS para mejorar nuestra seguridad informática. Su equipo realizó una auditoría exhaustiva y implementó medidas avanzadas para proteger nuestros datos.',
               author: {
                 name: 'Leslie Gaona',
                 handle: 'leslieGaona',
@@ -256,7 +256,7 @@ export default {
           ],
           [
             {
-              body: 'SOFTCARMEL implementó un sistema ERP que ha integrado todas nuestras funciones empresariales en una plataforma unificada. Desde la contabilidad hasta la gestión de inventarios, ahora tenemos una visión completa de nuestras operaciones. Este cambio ha mejorado la colaboración entre departamentos y ha optimizado nuestra cadena de suministro.',
+              body: 'MASOLUTIONS implementó un sistema ERP que ha integrado todas nuestras funciones empresariales en una plataforma unificada. Desde la contabilidad hasta la gestión de inventarios, ahora tenemos una visión completa de nuestras operaciones. Este cambio ha mejorado la colaboración entre departamentos y ha optimizado nuestra cadena de suministro.',
               author: {
                 name: 'Fabiola Rodas',
                 handle: 'FabiRo',
@@ -270,7 +270,7 @@ export default {
         [
           [
             {
-              body: 'SoftCarmel desarrolló una aplicación web que ha sido crucial para la gestión de nuestros eventos. Desde el registro de participantes hasta la coordinación logística, todo se maneja sin problemas. Su capacidad para entender nuestras necesidades específicas y ofrecer soluciones efectivas ha sido impresionante..',
+              body: 'MASOLUTIONS desarrolló una aplicación web que ha sido crucial para la gestión de nuestros eventos. Desde el registro de participantes hasta la coordinación logística, todo se maneja sin problemas. Su capacidad para entender nuestras necesidades específicas y ofrecer soluciones efectivas ha sido impresionante..',
               author: {
                 name: 'Erik Romero',
                 handle: 'erikromero_18',
@@ -282,7 +282,7 @@ export default {
           ],
           [
             {
-              body: 'SoftCarmel desarrolló una excelente aplicación web para nuestra aseguradora de vehículos. Ahora, nuestros clientes pueden gestionar pólizas, presentar reclamaciones y obtener cotizaciones fácilmente. Hemos mejorado la eficiencia interna y el servicio al cliente. SoftCarmel superó nuestras expectativas. ¡Muy recomendados!.',
+              body: 'MASOLUTIONS desarrolló una excelente aplicación web para nuestra aseguradora de vehículos. Ahora, nuestros clientes pueden gestionar pólizas, presentar reclamaciones y obtener cotizaciones fácilmente. Hemos mejorado la eficiencia interna y el servicio al cliente. MASOLUTIONS superó nuestras expectativas. ¡Muy recomendados!.',
               author: {
                 name: 'Edgar Lopez',
                 handle: 'EdgarLopez',

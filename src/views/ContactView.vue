@@ -19,7 +19,7 @@
             </div>
             <h2 class="text-3xl font-bold tracking-tight text-gray-900">Contactanos</h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">
-¡Transforma tus ideas en soluciones innovadoras! En SOFTCARMEL, nos especializamos en el desarrollo de software a medida para impulsar tu negocio al siguiente nivel. Nuestro equipo de expertos está listo para convertir tus necesidades en realidad, brindando soluciones personalizadas y de alta calidad. No pierdas la oportunidad de trabajar con profesionales comprometidos con tu éxito. ¡Contáctanos hoy y descubre cómo podemos ayudarte a alcanzar tus objetivos tecnológicos!</p>
+¡Transforma tus ideas en soluciones innovadoras! En MASOLUTIONS, nos especializamos en el desarrollo de software a medida para impulsar tu negocio al siguiente nivel. Nuestro equipo de expertos está listo para convertir tus necesidades en realidad, brindando soluciones personalizadas y de alta calidad. No pierdas la oportunidad de trabajar con profesionales comprometidos con tu éxito. ¡Contáctanos hoy y descubre cómo podemos ayudarte a alcanzar tus objetivos tecnológicos!</p>
             <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div class="flex gap-x-4">
                 <dt class="flex-none">
@@ -42,7 +42,7 @@
                   <span class="sr-only">Email</span>
                   <EnvelopeIcon class="h-7 w-6 text-teal-400" aria-hidden="true" />
                 </dt>
-                <dd><a class="hover:text-gray-900" href="mailto:contacto@softcarmel.com">contacto@softcarmel.com</a></dd>
+                <dd><a class="hover:text-gray-900" href="mailto:contacto@masolutions.com">contacto@masolutions.com</a></dd>
               </div>
             </dl>
           </div>
