@@ -1,6 +1,6 @@
 {
   "name": "masolutionsweb",
-  "version": "1.2.0",
+  "version": "2.2.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
